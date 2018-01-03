@@ -1,0 +1,153 @@
+/* myStyle.css */
+a {
+	color: #525252;
+	text-decoration: none;
+}
+a:hover{
+	color: #ff8f00;
+}
+div {
+	max-width:720px; 
+	padding:10px;
+	padding-top:5px;
+	padding-bottom:5px
+}
+body {
+	font-weight: bold;
+	margin: 0;
+	font-family: josefinSans;
+	background-color: black;
+	color: #969696;
+	overflow-x: hidden;
+}
+td {
+	background-color: white;
+	min-width: 40px;
+}
+h1{
+	padding-top: 15px;
+	padding-left: 65px;
+}
+h2 {
+	padding-left: 45px;
+	color: #ff8f00
+}
+h3 {
+	color: #00a9e7;	
+}
+#heady{
+	
+}
+#fullwidth {
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#footy {
+	position: absolute;
+	bottom: 0;
+	width: 150%;
+	text-align: center;
+	margin-left: -25%;
+}
+#footpic {
+	width: 100%;
+	height: 250px;
+	background-image: url(assets/footer.jpg);
+	background-size: 100% 100%;
+}
+#foot {
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 5px;
+	margin: 0;
+	background-color: #00a9e7;
+	text-align: center;
+	vertical-align: bottom;
+	font-size: 90%;
+	opacity: 1;
+	color: white;
+}
+#logo {
+	padding: 25px;
+	width: 372px;
+	height: 158px;
+}
+#selfie {
+	width: 300px;
+	height: 300px;
+}
+#spacebar {
+	background-size: 100% 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 110%;
+	margin-left: -5px;
+	height: 33px;
+	background-image: url(assets/bar.jpg);
+}
+#navitem {
+	padding-left: 100px;
+}
+#entry {
+	text-indent: 40px;
+	max-width: 660px;
+	padding-left: 45px;
+	padding-bottom: 15px;
+	/*background-color: #00a9e7;*/
+}
+#para {
+	text-indent: 40px;
+	margin: auto;
+	max-width: 1000px;
+	width: 85%
+}
+
+.strokeme
+{
+    color: #ff8f00;
+	
+    text-shadow:
+    -1px -1px 0 #525252,
+    1px -1px 0 #525252,
+    -1px 1px 0 #525252,
+    1px 1px 0 #525252;  
+}
+
+@font-face {
+	font-family: josefinSans;
+	src: url('jose/JosefinSans-Regular.eot');
+	src: url('jose/JosefinSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('jose/JosefinSans-Regular.woff2') format('woff2'),
+		url('jose/JosefinSans-Regular.woff') format('woff'),
+		url('jose/JosefinSans-Regular.ttf') format('truetype'),
+		url('jose/JosefinSans-Regular.svg#JosefinSans') format('svg');
+}
+html {
+	overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+	width: 1em;
+}
+html::-webkit-scrollbar-track{
+	background-color: #00a9e7;
+	-webkit-box-shadow: inset 0 0 6px #000003;
+}
+html::-webkit-scrollbar-thumb{
+	background-color: #ff8f00;
+	-webkit-border-radius: 10px;
+   	border-radius: 10px;
+}
+
+table::-webkit-scrollbar{
+	width: 5px;
+}
+table::-webkit-scrollbar-track{
+	background-color: #ff8f00;
+}
+table::-webkit-scrollbar-thumb{
+	background-color: #00a9e7;
+	-webkit-border-radius: 10px;
+    	border-radius: 10px;
+}
