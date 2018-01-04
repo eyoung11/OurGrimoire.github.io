@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+a:hover{
+	color:#FC4A1A;
+}
+body{
+	background-color: #4abdac;
+	font-family: josefinSans;
+	margin: 0px;
+}
+h1{
+	font-size: 100px;
+	color: #dfdce3;
+	margin: 0px;
+}
+h2{
+	margin:0px;
+	font-size: 50px;
+	color: #f7b733;
+	text-indent: 50px;
+}
+h3{
+	margin: 0px;
+	color: #f7b733;
+}
+p{
+	text-indent: 35px;
+	color: #DFDCE3;
+}
+
+.barrier{
+	height: 40px;
+	width: 75%;
+	background-color: #f7b733;
+	border-radius: 15px;
+}
+.sidebar{
+	vertical-align:top;
+	background-color: black;
+	border-radius: 15px;
+	padding-bottom: 15px;
+	padding-right: 25px;
+	width: 170px;
+}
+.sidebarThing{
+	margin-left: 0px;
+	margin-top: 30px;
+	color: #DFDCE3;
+}
+
+html{
+	
+}
+@font-face {
+	font-family: josefinSans;
+	src: url('jose/JosefinSans-Regular.eot');
+	src: url('jose/JosefinSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('jose/JosefinSans-Regular.woff2') format('woff2'),
+		url('jose/JosefinSans-Regular.woff') format('woff'),
+		url('jose/JosefinSans-Regular.ttf') format('truetype'),
+		url('jose/JosefinSans-Regular.svg#JosefinSans') format('svg');
+}
