@@ -1,10 +1,10 @@
 /* myStyle.css */
 a {
-	color: #f7b733;
+	color: #dfdce3;
 	text-decoration: none;
 }
 a:hover{
-	color: #f7b733;
+	color: #fc4a1a;
 }
 div {
 	max-width:720px; 
@@ -21,15 +21,17 @@ body {
 	overflow-x: hidden;
 }
 h1{
-	padding-top: 15px;
+	margin-top: 25px;
 	padding-left: 65px;
+	font-size: 100px;
 }
 h2 {
-	padding-left: 45px;
+	padding-left: 65px;
 	color: #f7b733;
 }
 h3 {
-	color: #fc4a1a;	
+	padding-left: 65px;
+	color: #f7b733;	
 }
 #heady{
 	
